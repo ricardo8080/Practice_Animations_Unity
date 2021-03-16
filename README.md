@@ -1,3 +1,6 @@
+
+
+
 # Fernandez_ProySonic_Infografia
 
 
@@ -7,5 +10,5 @@ necesario entrar a Animation y a la opción de "Action Mode" para poder
 observar las 3 animaciones.
 Asi mismo, el día posterior, se creo 3 videos para poder observar las animaciones 
 sin necesitar entrar al blender (no se modifico el archivo, unicamente se exportaron
-las animaciones a video)
+las animaciones a video) en la carpeta ./Animations
 
