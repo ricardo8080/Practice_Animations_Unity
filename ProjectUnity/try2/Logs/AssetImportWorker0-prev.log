@@ -1,0 +1,1130 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.867; Version 2004; 64bit' Language: 'es' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UPB/GitHubDesktopDefault/Fernandez_ProySonic_Infografia/ProjectUnity/try2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50531
+Successfully changed project path to: D:/UPB/GitHubDesktopDefault/Fernandez_ProySonic_Infografia/ProjectUnity/try2
+D:/UPB/GitHubDesktopDefault/Fernandez_ProySonic_Infografia/ProjectUnity/try2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UPB/GitHubDesktopDefault/Fernandez_ProySonic_Infografia/ProjectUnity/try2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.5730
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002489 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 3.048900 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.663400 ms  DeleteObjects: 0.133700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Jean
+  artifactKey: Guid(92bffb9808cdefd46b9e67e77590bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean using Guid(92bffb9808cdefd46b9e67e77590bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aff0d97b7e0c97f720c28054775a31b') in 0.011281 seconds
+  Import took 0.013959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.264764 seconds.
+  path: Assets/Jean/draw sword 1.fbx
+  artifactKey: Guid(7bb3c2ed7e84f9c43ae68ae5b03581e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/draw sword 1.fbx using Guid(7bb3c2ed7e84f9c43ae68ae5b03581e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e010ececf42d4f69db1e75625af9e5c') in 0.087556 seconds
+  Import took 0.090342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Jean/Jean.fbx
+  artifactKey: Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/Jean.fbx using Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8de13f4617805fe60dd6e262be90e07') in 0.607977 seconds
+  Import took 0.611837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Jean/sword and shield idle.fbx
+  artifactKey: Guid(2a59dae0935c7be45a6a3fd391b13c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield idle.fbx using Guid(2a59dae0935c7be45a6a3fd391b13c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9a23a488d1be63dfbd1c5b57c91387') in 0.013435 seconds
+  Import took 0.015782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Jean/sword and shield jump (2).fbx
+  artifactKey: Guid(69cdaa5085b78cd4489726562d5a232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield jump (2).fbx using Guid(69cdaa5085b78cd4489726562d5a232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dacd55058da59f4ee43d71beec9be4') in 0.016492 seconds
+  Import took 0.019475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Jean/sword and shield casting (2).fbx
+  artifactKey: Guid(a9a76189daea62f49b6ff91672a8952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield casting (2).fbx using Guid(a9a76189daea62f49b6ff91672a8952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14db752a6994a861fd3ac0d7743af2d') in 0.012869 seconds
+  Import took 0.015589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Jean/sword and shield idle (2).fbx
+  artifactKey: Guid(bf4e1d41900e439409ce89e07470aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield idle (2).fbx using Guid(bf4e1d41900e439409ce89e07470aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f0355721765f82d0b608653678e1a') in 0.014692 seconds
+  Import took 0.019359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Jean/sword and shield impact (2).fbx
+  artifactKey: Guid(268555494644b254282295b790f48937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield impact (2).fbx using Guid(268555494644b254282295b790f48937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53daa266482e8e4e0c8bc9e438d07430') in 0.014519 seconds
+  Import took 0.018648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Jean/sword and shield kick.fbx
+  artifactKey: Guid(5b655b47829ffb24080862a447f92de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield kick.fbx using Guid(5b655b47829ffb24080862a447f92de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e974864584e406b8dec457b6bd3ee707') in 0.016967 seconds
+  Import took 0.022017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Jean/sword and shield 180 turn.fbx
+  artifactKey: Guid(bc5094c707a587b448249df8f4b89f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield 180 turn.fbx using Guid(bc5094c707a587b448249df8f4b89f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3455dd3989ba3cf06a053c13d6f06a78') in 0.018009 seconds
+  Import took 0.021677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Jean/sword and shield crouch idle.fbx
+  artifactKey: Guid(cc72f1bd5af12d24da8b996b5c221168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouch idle.fbx using Guid(cc72f1bd5af12d24da8b996b5c221168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0306f54f6f4ca3c6e74e2be6ba6f7a2') in 0.013199 seconds
+  Import took 0.015948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Jean/draw sword 2.fbx
+  artifactKey: Guid(048d32f5d5c7f8344869c4cfef1d1987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/draw sword 2.fbx using Guid(048d32f5d5c7f8344869c4cfef1d1987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f600bb75ef2b16bd7a141ab3d7a7ba') in 0.013284 seconds
+  Import took 0.016388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Jean/sword and shield turn.fbx
+  artifactKey: Guid(97683300ebfd77141a67228b52f06616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield turn.fbx using Guid(97683300ebfd77141a67228b52f06616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64f293a8017b9a9ddfdb4258e0ea10d') in 0.013464 seconds
+  Import took 0.016132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Jean/sword and shield death.fbx
+  artifactKey: Guid(85da0ca629ed05c45beba0b965890660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield death.fbx using Guid(85da0ca629ed05c45beba0b965890660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72505b945c8989ae4d14ee13669005a3') in 0.015138 seconds
+  Import took 0.018303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Jean/sheath sword 2.fbx
+  artifactKey: Guid(7d9f5d95f50e63f4080787c6c7b71751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sheath sword 2.fbx using Guid(7d9f5d95f50e63f4080787c6c7b71751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f1eada5d7b14baecf449707840d8ee') in 0.013518 seconds
+  Import took 0.016686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Jean/sword and shield run.fbx
+  artifactKey: Guid(8f5b15231dde8564ca0954287a4edcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield run.fbx using Guid(8f5b15231dde8564ca0954287a4edcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7309e1228cbb4cba520c2605374b0a42') in 0.016807 seconds
+  Import took 0.019721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Jean/sword and shield jump.fbx
+  artifactKey: Guid(38adc89a4bcb8b340bb3ac80ebce15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield jump.fbx using Guid(38adc89a4bcb8b340bb3ac80ebce15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d623a2559778c449794f65c77aa477') in 0.012911 seconds
+  Import took 0.015602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Jean/sword and shield power up.fbx
+  artifactKey: Guid(9f18f67fe328d9a4c8e91d766b0f4f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield power up.fbx using Guid(9f18f67fe328d9a4c8e91d766b0f4f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5f6a16e03fafcbd956d834a2579a7a') in 0.014711 seconds
+  Import took 0.017889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Jean/sword and shield attack (3).fbx
+  artifactKey: Guid(ea209a42a4ebbef4f976ba300829cf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield attack (3).fbx using Guid(ea209a42a4ebbef4f976ba300829cf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172b0f7d2b88559e4280aa79d4fc7f54') in 0.011999 seconds
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/Jean/sword and shield crouching (2).fbx
+  artifactKey: Guid(416374d269fd69241a27fef500eb69ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouching (2).fbx using Guid(416374d269fd69241a27fef500eb69ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b76f9b96eccca73332e5eadbb64a571') in 0.013869 seconds
+  Import took 0.017260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Jean/sword and shield casting.fbx
+  artifactKey: Guid(186f9dc0615fa8841a9f602f54f27724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield casting.fbx using Guid(186f9dc0615fa8841a9f602f54f27724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0982702d0d039d9b07ea51661a3045e') in 0.014586 seconds
+  Import took 0.017890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Jean/sword and shield block (2).fbx
+  artifactKey: Guid(3c3b2e3e78cc1d845bd8a61d0096bf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield block (2).fbx using Guid(3c3b2e3e78cc1d845bd8a61d0096bf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1add272ed929c44c54d36bb273f7914') in 0.013064 seconds
+  Import took 0.015838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Jean/sword and shield slash (5).fbx
+  artifactKey: Guid(2fb1b4016e246a54f9eb5485530ef7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield slash (5).fbx using Guid(2fb1b4016e246a54f9eb5485530ef7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5350bdcc532482024f515cc93547e347') in 0.014547 seconds
+  Import took 0.018056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Jean/sword and shield attack.fbx
+  artifactKey: Guid(53e3b0e3df22aec4a9f3a1186905ef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield attack.fbx using Guid(53e3b0e3df22aec4a9f3a1186905ef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef0eeea2f3c7c1deab8fd0e3cddd8a0') in 0.013888 seconds
+  Import took 0.016429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Jean/sword and shield attack (4).fbx
+  artifactKey: Guid(c8f64e9a17425064097a2c07c78a7a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield attack (4).fbx using Guid(c8f64e9a17425064097a2c07c78a7a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f653fff0bf184925f314aab9dc6051e0') in 0.013753 seconds
+  Import took 0.016616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Jean/sword and shield slash (3).fbx
+  artifactKey: Guid(043293552097cad4787679aa16b42dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield slash (3).fbx using Guid(043293552097cad4787679aa16b42dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458c3e4346955875543ee92663fdde53') in 0.013229 seconds
+  Import took 0.016189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Jean/sword and shield slash.fbx
+  artifactKey: Guid(d121ffc0b66345b499d1db1bf6601fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield slash.fbx using Guid(d121ffc0b66345b499d1db1bf6601fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb53f0cb6341557cd0d3acb06541ce07') in 0.013633 seconds
+  Import took 0.016532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Jean/sword and shield crouch block.fbx
+  artifactKey: Guid(5167911cd1fa35a47ad2bee175173394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouch block.fbx using Guid(5167911cd1fa35a47ad2bee175173394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e17aca600e963d3e6cfc0487097ddea') in 0.013741 seconds
+  Import took 0.016975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Jean/sword and shield slash (2).fbx
+  artifactKey: Guid(2612c9c1379165d4fb7dc15618d592d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield slash (2).fbx using Guid(2612c9c1379165d4fb7dc15618d592d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc14ee8894d43ec14dd91289d04965c9') in 0.015134 seconds
+  Import took 0.018142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Jean/sword and shield 180 turn (2).fbx
+  artifactKey: Guid(3c6d35c082509ab40843d5eb9b068dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield 180 turn (2).fbx using Guid(3c6d35c082509ab40843d5eb9b068dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3ba2508388a4cd7c65c26a5bf5b6f4') in 0.015950 seconds
+  Import took 0.018807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Jean/sword and shield walk.fbx
+  artifactKey: Guid(df44f0078f408bd4da4acfb14eca0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield walk.fbx using Guid(df44f0078f408bd4da4acfb14eca0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b512b702a9103d0510d4d0178dda7d') in 0.013125 seconds
+  Import took 0.034353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Jean/sword and shield idle (3).fbx
+  artifactKey: Guid(1d7a187dbb7fc24459afea5369341d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield idle (3).fbx using Guid(1d7a187dbb7fc24459afea5369341d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5cf09a662be3cc5b2f400af88f0a58') in 0.013957 seconds
+  Import took 0.016760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Jean/sword and shield impact.fbx
+  artifactKey: Guid(7e29c4756adb2d641b1ef20b52d7e041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield impact.fbx using Guid(7e29c4756adb2d641b1ef20b52d7e041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a8fd13b4e7d6c739ca19f225ec8e68') in 0.013564 seconds
+  Import took 0.016845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Jean/sword and shield strafe (4).fbx
+  artifactKey: Guid(01661eae7a7dc1645826ab0f327591e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield strafe (4).fbx using Guid(01661eae7a7dc1645826ab0f327591e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c9433ea4bc2c734dbbb55c4580c124') in 0.013763 seconds
+  Import took 0.017764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Jean/sword and shield crouch.fbx
+  artifactKey: Guid(318f6e75e565f5f45b952a7f07e2ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouch.fbx using Guid(318f6e75e565f5f45b952a7f07e2ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495fead351b2a91a299820e9fe9def69') in 0.012369 seconds
+  Import took 0.015496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Jean/sword and shield strafe.fbx
+  artifactKey: Guid(cf25d0d1d47d4794fa984b2ce9973509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield strafe.fbx using Guid(cf25d0d1d47d4794fa984b2ce9973509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af0c2a3a6162103dd05d4d754cfd1a2') in 0.014084 seconds
+  Import took 0.017458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Jean/sword and shield crouch block (2).fbx
+  artifactKey: Guid(5160df56a3991054fa7f964e4ae9ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouch block (2).fbx using Guid(5160df56a3991054fa7f964e4ae9ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563dce370048dadc1626d3f8583c5a10') in 0.014488 seconds
+  Import took 0.018311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Jean/sword and shield slash (4).fbx
+  artifactKey: Guid(d80182cfc97eab542beaf146d05ae426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield slash (4).fbx using Guid(d80182cfc97eab542beaf146d05ae426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1cba27bd61ae58e4e5692dcad2352c') in 0.014791 seconds
+  Import took 0.018127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Jean/sword and shield block.fbx
+  artifactKey: Guid(329c887b40e7e8e499d54b4ee241ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield block.fbx using Guid(329c887b40e7e8e499d54b4ee241ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc074cbbac22e6ec05d080c52786fb2') in 0.013794 seconds
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Jean/sword and shield impact (3).fbx
+  artifactKey: Guid(1d04cb10e8fd88e47a8b1d1bb311c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield impact (3).fbx using Guid(1d04cb10e8fd88e47a8b1d1bb311c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6ce078d9ac86999e9477e024cd5ed1') in 0.013425 seconds
+  Import took 0.015990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Jean/sword and shield idle (4).fbx
+  artifactKey: Guid(86b0cf3d5dcf0fa45962567dbde3872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield idle (4).fbx using Guid(86b0cf3d5dcf0fa45962567dbde3872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2100359bdbd1873413927cadc16876') in 0.014281 seconds
+  Import took 0.017924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Jean/sheath sword 1.fbx
+  artifactKey: Guid(70673d006b3f691458434c137db0ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sheath sword 1.fbx using Guid(70673d006b3f691458434c137db0ef4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bf41dca5623a55025b7631b019a266') in 0.013731 seconds
+  Import took 0.016670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Jean/sword and shield crouching.fbx
+  artifactKey: Guid(0331f1da3099a9a48ac703db6d17b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouching.fbx using Guid(0331f1da3099a9a48ac703db6d17b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f562e2f71bd76d635e08ff2521f70b') in 0.012469 seconds
+  Import took 0.015330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Jean/sword and shield turn (2).fbx
+  artifactKey: Guid(005d4042655dfe345866685911c2794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield turn (2).fbx using Guid(005d4042655dfe345866685911c2794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df1bf4747dadf7cd9b7f8cc462844a4') in 0.013045 seconds
+  Import took 0.016175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Jean/sword and shield crouch block idle.fbx
+  artifactKey: Guid(4db4ab0a0b17f1e4cba51c4fbabd5073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouch block idle.fbx using Guid(4db4ab0a0b17f1e4cba51c4fbabd5073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255f00e57343ad872b35603cac3fe248') in 0.013729 seconds
+  Import took 0.016633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Jean/sword and shield strafe (3).fbx
+  artifactKey: Guid(e1476eec15e1d224a99ec29e569aedf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield strafe (3).fbx using Guid(e1476eec15e1d224a99ec29e569aedf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa8955ccaedd33c4b7b2f827e3a7ebb') in 0.012986 seconds
+  Import took 0.016085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Jean/sword and shield run (2).fbx
+  artifactKey: Guid(fc9d909f99eaf3949aaaa3166e0d2117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield run (2).fbx using Guid(fc9d909f99eaf3949aaaa3166e0d2117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf90768d50b7d249b97522cb27b4f8a') in 0.012794 seconds
+  Import took 0.015473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Jean/sword and shield death (2).fbx
+  artifactKey: Guid(1d75a9e3efb249d4eaa157626911ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield death (2).fbx using Guid(1d75a9e3efb249d4eaa157626911ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9cb927b92e625dd74c170dbf5a0c2b') in 0.017915 seconds
+  Import took 0.020419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Jean/sword and shield attack (2).fbx
+  artifactKey: Guid(9c94cf568896a6442b1f766662a70227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield attack (2).fbx using Guid(9c94cf568896a6442b1f766662a70227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055c135047c11619da69ea577ca4e3e8') in 0.013656 seconds
+  Import took 0.026415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Jean/sword and shield walk (2).fbx
+  artifactKey: Guid(bf237ab5f6d5c9048a555fa3ac5cacce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield walk (2).fbx using Guid(bf237ab5f6d5c9048a555fa3ac5cacce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9ef0ae6740abd28a172d2abff3f763') in 0.013307 seconds
+  Import took 0.016155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Jean/sword and shield crouching (3).fbx
+  artifactKey: Guid(017cb0f6a49322f4e97b64f44f9ea7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield crouching (3).fbx using Guid(017cb0f6a49322f4e97b64f44f9ea7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1a9ca5155f698f5ed06b4460d9a530') in 0.013861 seconds
+  Import took 0.017297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Jean/sword and shield block idle.fbx
+  artifactKey: Guid(55ec4daf5151657468ffba753a0052c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield block idle.fbx using Guid(55ec4daf5151657468ffba753a0052c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b233573b906135b1e150788816cf37f') in 0.014553 seconds
+  Import took 0.017599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Jean/sword and shield strafe (2).fbx
+  artifactKey: Guid(3dec4db1d1e6ab145940c53df702bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/sword and shield strafe (2).fbx using Guid(3dec4db1d1e6ab145940c53df702bef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5174ee35390b9592754bf925cb0612') in 0.012578 seconds
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1496.068945 seconds.
+  path: Assets/Jean/body.jpg
+  artifactKey: Guid(2803d231b4ab4a24a8d4696d8af2c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/body.jpg using Guid(2803d231b4ab4a24a8d4696d8af2c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83b2f3bbd31bf95560b4b550e6cd7eb') in 0.060901 seconds
+  Import took 0.064536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Jean/Jean.fbx
+  artifactKey: Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/Jean.fbx using Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaa77edd0d2774d572ba8944f12fae1') in 0.184370 seconds
+  Import took 0.210776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Jean/face.jpg
+  artifactKey: Guid(8a0801bce47f74243be82ba6f1694560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/face.jpg using Guid(8a0801bce47f74243be82ba6f1694560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346a058456d46eeb28f765eef11953ce') in 0.025260 seconds
+  Import took 0.027400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Jean/hair.jpg
+  artifactKey: Guid(f8f3ae40d5c263748a81121d8c05f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/hair.jpg using Guid(f8f3ae40d5c263748a81121d8c05f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71197003c44b63a0fcb4b4653d33b62') in 0.034365 seconds
+  Import took 0.044781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Jean/funnyfaces.png
+  artifactKey: Guid(f1537c1bf6772d1499ae185a760187ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/funnyfaces.png using Guid(f1537c1bf6772d1499ae185a760187ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffdab1991564c77d1f274c48a8da20f') in 0.025966 seconds
+  Import took 0.029650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.586134 seconds.
+  path: Assets/Jean/Jean.fbx
+  artifactKey: Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/Jean.fbx using Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4161609cf3225a96368c4ed94eac9971') in 0.143804 seconds
+  Import took 0.180616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.455004 seconds.
+  path: Assets/Jean/New Animator Controller.controller
+  artifactKey: Guid(0a57a8e1b540d6648a47923689b59c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/New Animator Controller.controller using Guid(0a57a8e1b540d6648a47923689b59c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f1025e21ff68388c580854ee1bacde') in 0.030945 seconds
+  Import took 0.033808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.995701 seconds.
+  path: Assets/Jean/Player.controller
+  artifactKey: Guid(0a57a8e1b540d6648a47923689b59c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/Player.controller using Guid(0a57a8e1b540d6648a47923689b59c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2150c28b59f79749a771c8a597e61ab') in 0.015264 seconds
+  Import took 0.020430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.698722 seconds.
+  path: Assets/Jean/block.fbx
+  artifactKey: Guid(329c887b40e7e8e499d54b4ee241ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/block.fbx using Guid(329c887b40e7e8e499d54b4ee241ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da87f6dcd1fe5172b53db50de24bf21') in 0.012467 seconds
+  Import took 0.015155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Jean/casting (2).fbx
+  artifactKey: Guid(a9a76189daea62f49b6ff91672a8952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/casting (2).fbx using Guid(a9a76189daea62f49b6ff91672a8952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ecff9e35728b9baff3a51e3189590b') in 0.010004 seconds
+  Import took 0.012592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Jean/crouch idle.fbx
+  artifactKey: Guid(cc72f1bd5af12d24da8b996b5c221168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouch idle.fbx using Guid(cc72f1bd5af12d24da8b996b5c221168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51b25da52a5ca801065625d1c198a80') in 0.011166 seconds
+  Import took 0.013941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Jean/casting.fbx
+  artifactKey: Guid(186f9dc0615fa8841a9f602f54f27724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/casting.fbx using Guid(186f9dc0615fa8841a9f602f54f27724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32af473371b53eab7bfd866097fc8be6') in 0.010031 seconds
+  Import took 0.012766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Jean/crouch block.fbx
+  artifactKey: Guid(5167911cd1fa35a47ad2bee175173394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouch block.fbx using Guid(5167911cd1fa35a47ad2bee175173394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1b5fc0b2a2e387bb0d7a33abd7f44e') in 0.010164 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Jean/crouch.fbx
+  artifactKey: Guid(318f6e75e565f5f45b952a7f07e2ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouch.fbx using Guid(318f6e75e565f5f45b952a7f07e2ce7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d315660ee1f028446d93a387e1cf4b') in 0.011326 seconds
+  Import took 0.014661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Jean/crouch block (2).fbx
+  artifactKey: Guid(5160df56a3991054fa7f964e4ae9ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouch block (2).fbx using Guid(5160df56a3991054fa7f964e4ae9ebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2bb0d0347d0cb03a3b2bcd758c7cb8') in 0.011136 seconds
+  Import took 0.045289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Jean/crouch block idle.fbx
+  artifactKey: Guid(4db4ab0a0b17f1e4cba51c4fbabd5073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouch block idle.fbx using Guid(4db4ab0a0b17f1e4cba51c4fbabd5073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023de85a1a10b15e4de8803ca9bd572e') in 0.014940 seconds
+  Import took 0.018468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119888 seconds.
+  path: Assets/Jean/180 turn (2).fbx
+  artifactKey: Guid(3c6d35c082509ab40843d5eb9b068dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/180 turn (2).fbx using Guid(3c6d35c082509ab40843d5eb9b068dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003bb9994ecdc431f36fad1432a08a09') in 0.012326 seconds
+  Import took 0.015014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Jean/180 turn.fbx
+  artifactKey: Guid(bc5094c707a587b448249df8f4b89f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/180 turn.fbx using Guid(bc5094c707a587b448249df8f4b89f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2e72317f727dea04cfc78ee80a304b') in 0.012852 seconds
+  Import took 0.015456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Jean/attack (3).fbx
+  artifactKey: Guid(ea209a42a4ebbef4f976ba300829cf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/attack (3).fbx using Guid(ea209a42a4ebbef4f976ba300829cf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914ee763fd1cd47a1871235437b48726') in 0.014831 seconds
+  Import took 0.018735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Jean/180 turn.fbx
+  artifactKey: Guid(bc5094c707a587b448249df8f4b89f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/180 turn.fbx using Guid(bc5094c707a587b448249df8f4b89f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2e72317f727dea04cfc78ee80a304b') in 0.007299 seconds
+  Import took 0.009853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Jean/block (2).fbx
+  artifactKey: Guid(3c3b2e3e78cc1d845bd8a61d0096bf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/block (2).fbx using Guid(3c3b2e3e78cc1d845bd8a61d0096bf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8546fcceefc5feff91c54930eab9efda') in 0.012853 seconds
+  Import took 0.015746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Jean/attack.fbx
+  artifactKey: Guid(53e3b0e3df22aec4a9f3a1186905ef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/attack.fbx using Guid(53e3b0e3df22aec4a9f3a1186905ef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27795855c4520c3be80264bc200be9a') in 0.013235 seconds
+  Import took 0.016272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Jean/attack (4).fbx
+  artifactKey: Guid(c8f64e9a17425064097a2c07c78a7a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/attack (4).fbx using Guid(c8f64e9a17425064097a2c07c78a7a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111f41f5f9242f0721010d46631cf290') in 0.014665 seconds
+  Import took 0.017774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Jean/180 turn (2).fbx
+  artifactKey: Guid(3c6d35c082509ab40843d5eb9b068dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/180 turn (2).fbx using Guid(3c6d35c082509ab40843d5eb9b068dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003bb9994ecdc431f36fad1432a08a09') in 0.008121 seconds
+  Import took 0.010769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Jean/attack (2).fbx
+  artifactKey: Guid(9c94cf568896a6442b1f766662a70227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/attack (2).fbx using Guid(9c94cf568896a6442b1f766662a70227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7683baebbb4eda1bcc531901e624e92f') in 0.013957 seconds
+  Import took 0.016581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Jean/block idle.fbx
+  artifactKey: Guid(55ec4daf5151657468ffba753a0052c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/block idle.fbx using Guid(55ec4daf5151657468ffba753a0052c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef3cac7dca08b56882afdeca48b86c7') in 0.012706 seconds
+  Import took 0.015879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.220593 seconds.
+  path: Assets/Jean/crouching (2).fbx
+  artifactKey: Guid(416374d269fd69241a27fef500eb69ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouching (2).fbx using Guid(416374d269fd69241a27fef500eb69ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab77a2a7f95be463494d936f4412f45') in 0.019113 seconds
+  Import took 0.023950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Jean/idle.fbx
+  artifactKey: Guid(2a59dae0935c7be45a6a3fd391b13c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/idle.fbx using Guid(2a59dae0935c7be45a6a3fd391b13c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170506b7054b37040bd28e0507a78893') in 0.015289 seconds
+  Import took 0.020238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Jean/jump (2).fbx
+  artifactKey: Guid(69cdaa5085b78cd4489726562d5a232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/jump (2).fbx using Guid(69cdaa5085b78cd4489726562d5a232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4bb6a9bab931b743455e6bf8c2891a') in 0.017485 seconds
+  Import took 0.022400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Jean/idle (2).fbx
+  artifactKey: Guid(bf4e1d41900e439409ce89e07470aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/idle (2).fbx using Guid(bf4e1d41900e439409ce89e07470aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd4cad4d31d469a60bbdf6a41186647') in 0.013490 seconds
+  Import took 0.018302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Jean/impact (2).fbx
+  artifactKey: Guid(268555494644b254282295b790f48937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/impact (2).fbx using Guid(268555494644b254282295b790f48937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9e347d71dfc4e8d8c87233a79c54a3') in 0.013988 seconds
+  Import took 0.017941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Jean/kick.fbx
+  artifactKey: Guid(5b655b47829ffb24080862a447f92de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/kick.fbx using Guid(5b655b47829ffb24080862a447f92de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f5c91b580ee073baf4d69bf48841fe') in 0.015443 seconds
+  Import took 0.018063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Jean/death.fbx
+  artifactKey: Guid(85da0ca629ed05c45beba0b965890660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/death.fbx using Guid(85da0ca629ed05c45beba0b965890660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e54078e91d5a6d5f30759dd5092ab4') in 0.014349 seconds
+  Import took 0.017590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Jean/jump.fbx
+  artifactKey: Guid(38adc89a4bcb8b340bb3ac80ebce15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/jump.fbx using Guid(38adc89a4bcb8b340bb3ac80ebce15a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1321c3783b88458d5e5589c71fe4a3') in 0.014282 seconds
+  Import took 0.017917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Jean/idle (3).fbx
+  artifactKey: Guid(1d7a187dbb7fc24459afea5369341d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/idle (3).fbx using Guid(1d7a187dbb7fc24459afea5369341d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b8b2666800207b7dbe0da72621f4ad') in 0.015762 seconds
+  Import took 0.018601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Jean/impact.fbx
+  artifactKey: Guid(7e29c4756adb2d641b1ef20b52d7e041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/impact.fbx using Guid(7e29c4756adb2d641b1ef20b52d7e041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87aaf8922f1e54d1e35661b1fca05c7') in 0.013563 seconds
+  Import took 0.016374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Jean/impact (3).fbx
+  artifactKey: Guid(1d04cb10e8fd88e47a8b1d1bb311c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/impact (3).fbx using Guid(1d04cb10e8fd88e47a8b1d1bb311c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba7062e396c39af692cfe1a51d88491') in 0.014734 seconds
+  Import took 0.017713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Jean/idle (4).fbx
+  artifactKey: Guid(86b0cf3d5dcf0fa45962567dbde3872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/idle (4).fbx using Guid(86b0cf3d5dcf0fa45962567dbde3872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466d13a1f1cf1b772d4a1573f3d0b621') in 0.013004 seconds
+  Import took 0.016807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Jean/crouching.fbx
+  artifactKey: Guid(0331f1da3099a9a48ac703db6d17b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouching.fbx using Guid(0331f1da3099a9a48ac703db6d17b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7e65b1cb12f4558b30a2a59ee3b7d4') in 0.012719 seconds
+  Import took 0.016197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Jean/death (2).fbx
+  artifactKey: Guid(1d75a9e3efb249d4eaa157626911ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/death (2).fbx using Guid(1d75a9e3efb249d4eaa157626911ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c74a3cc725d112dca02e4c4a370bf1') in 0.015257 seconds
+  Import took 0.017971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Jean/crouching (3).fbx
+  artifactKey: Guid(017cb0f6a49322f4e97b64f44f9ea7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/crouching (3).fbx using Guid(017cb0f6a49322f4e97b64f44f9ea7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f5b7e8a01d0c2789bcc115ae699020') in 0.012309 seconds
+  Import took 0.016059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.577531 seconds.
+  path: Assets/Jean/power up.fbx
+  artifactKey: Guid(9f18f67fe328d9a4c8e91d766b0f4f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/power up.fbx using Guid(9f18f67fe328d9a4c8e91d766b0f4f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e133cfd26d85b26fd0d8cdb67ed2b98') in 0.017633 seconds
+  Import took 0.021697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Jean/run (2).fbx
+  artifactKey: Guid(d8db2408dcd92944d87c8c715f6894a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/run (2).fbx using Guid(d8db2408dcd92944d87c8c715f6894a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04e2e3a9c1bbbc392c12fd8bb13069b') in 0.011173 seconds
+  Import took 0.013892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.449394 seconds.
+  path: Assets/Jean/turn (2).fbx
+  artifactKey: Guid(005d4042655dfe345866685911c2794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/turn (2).fbx using Guid(005d4042655dfe345866685911c2794c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec3ade963d6004434d7f6483036e2b') in 0.046222 seconds
+  Import took 0.049222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Jean/turn.fbx
+  artifactKey: Guid(97683300ebfd77141a67228b52f06616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/turn.fbx using Guid(97683300ebfd77141a67228b52f06616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194ec662cf154526799e3b345449a9dc') in 0.009798 seconds
+  Import took 0.012189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Jean/walk.fbx
+  artifactKey: Guid(df44f0078f408bd4da4acfb14eca0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/walk.fbx using Guid(df44f0078f408bd4da4acfb14eca0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfb5c86a90d6cb14fe17b31f3998831') in 0.009884 seconds
+  Import took 0.012752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Jean/walk (2).fbx
+  artifactKey: Guid(bf237ab5f6d5c9048a555fa3ac5cacce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/walk (2).fbx using Guid(bf237ab5f6d5c9048a555fa3ac5cacce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c645e9c68623480268d2e4389c047b') in 0.010559 seconds
+  Import took 0.013684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.390417 seconds.
+  path: Assets/Jean/Jean.fbx
+  artifactKey: Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/Jean.fbx using Guid(46be243fc37b7d5428d064096c577d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd5241772ecd71f1df157907b0e8325') in 0.166664 seconds
+  Import took 0.171558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1222.019654 seconds.
+  path: Assets/Jean/paladin_prop_j_nordstrom.fbx
+  artifactKey: Guid(df060adf37c95f643ac66592d3374948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jean/paladin_prop_j_nordstrom.fbx using Guid(df060adf37c95f643ac66592d3374948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522057fb5a3835b600124c813b1a555a') in 0.815845 seconds
+  Import took 0.822934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2307.136873 seconds.
+  path: Assets/Swordsman
+  artifactKey: Guid(1e6cd07b7dac7064383688e2feca33db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman using Guid(1e6cd07b7dac7064383688e2feca33db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2071c5fdc045ce84ed4eaca0b0e7737') in 0.008972 seconds
+  Import took 0.012331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071236 seconds.
+  path: Assets/Swordsman/sword and shield idle.fbx
+  artifactKey: Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/sword and shield idle.fbx using Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2493d450d7d232e3978adfaeb8c370') in 0.008058 seconds
+  Import took 0.010940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Swordsman/sword and shield walk.fbx
+  artifactKey: Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/sword and shield walk.fbx using Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0faf972cb157b6215a47462080bffd') in 0.010808 seconds
+  Import took 0.074547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.521592 seconds.
+  path: Assets/Swordsman/Animations
+  artifactKey: Guid(0f34275faaf52964f919ea297053ab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations using Guid(0f34275faaf52964f919ea297053ab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4b332a40449ae1535faa6f58bb011e') in 0.009500 seconds
+  Import took 0.012856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.900996 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e927d0b238e2cde0f6869e17df74c') in 0.008496 seconds
+  Import took 0.011028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.158794 seconds.
+  path: Assets/Swordsman/paladin_prop_j_nordstrom.fbx
+  artifactKey: Guid(df060adf37c95f643ac66592d3374948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/paladin_prop_j_nordstrom.fbx using Guid(df060adf37c95f643ac66592d3374948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b7de3712637553ab43f24cf2bc908e') in 0.141660 seconds
+  Import took 0.145635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.073793 seconds.
+  path: Assets/Swordsman/Textures
+  artifactKey: Guid(1837bfe5c7df032419095b170a5ca110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Textures using Guid(1837bfe5c7df032419095b170a5ca110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe40d6dce32d51b36929dd4f9971034a') in 0.015783 seconds
+  Import took 0.030413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037747 seconds.
+  path: Assets/Swordsman/Textures/Paladin_diffuse.png
+  artifactKey: Guid(ad06cbb0b4c759d45af3c3709261a8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Textures/Paladin_diffuse.png using Guid(ad06cbb0b4c759d45af3c3709261a8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9cb6ad6b51b88718bb1c41d52ae193') in 0.021322 seconds
+  Import took 0.023794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Swordsman/Textures/Paladin_specular.png
+  artifactKey: Guid(2cb953ca78cfb0b4fb5fc02fa8c5a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Textures/Paladin_specular.png using Guid(2cb953ca78cfb0b4fb5fc02fa8c5a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55a3c7dccc14a4afe87299df9f8f080') in 0.028730 seconds
+  Import took 0.031859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Swordsman/Textures/Paladin_normal.png
+  artifactKey: Guid(9e160d97f0bf1394880e2a383c37f9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Textures/Paladin_normal.png using Guid(9e160d97f0bf1394880e2a383c37f9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d5f4bb01d5b95f1087509949896239') in 0.026847 seconds
+  Import took 0.029944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.714396 seconds.
+  path: Assets/Swordsman/paladin_prop_j_nordstrom.fbx
+  artifactKey: Guid(df060adf37c95f643ac66592d3374948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/paladin_prop_j_nordstrom.fbx using Guid(df060adf37c95f643ac66592d3374948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163d54a35f3a37597b71dcbd843e9d46') in 0.103050 seconds
+  Import took 0.106001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.383660 seconds.
+  path: Assets/Swordsman/Animations/sword and shield idle.fbx
+  artifactKey: Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/sword and shield idle.fbx using Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf93077676ad4f9f9366f2a3519cdba0') in 0.008724 seconds
+  Import took 0.011962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028707 seconds.
+  path: Assets/Swordsman/Animations/sword and shield idle.fbx
+  artifactKey: Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/sword and shield idle.fbx using Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf93077676ad4f9f9366f2a3519cdba0') in 0.008825 seconds
+  Import took 0.012324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.970861 seconds.
+  path: Assets/Swordsman/Animations/sword and shield idle.fbx
+  artifactKey: Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/sword and shield idle.fbx using Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b14c3d2040fd84609e6a1d681ea40e2') in 0.013886 seconds
+  Import took 0.018624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002286 seconds.
+  path: Assets/Swordsman/Animations/sword and shield idle.fbx
+  artifactKey: Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/sword and shield idle.fbx using Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b14c3d2040fd84609e6a1d681ea40e2') in 0.011646 seconds
+  Import took 0.016043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.652102 seconds.
+  path: Assets/Swordsman/Animations/New Animator Controller.controller
+  artifactKey: Guid(4183507e8020d0944af19645ebf6bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/New Animator Controller.controller using Guid(4183507e8020d0944af19645ebf6bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584aa3de5b0a475e864a69721f3ba2c0') in 0.004461 seconds
+  Import took 0.029891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.118113 seconds.
+  path: Assets/Swordsman/Animations/Player.controller
+  artifactKey: Guid(4183507e8020d0944af19645ebf6bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/Player.controller using Guid(4183507e8020d0944af19645ebf6bd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d196a44b0d186420736210cb39435c') in 0.003635 seconds
+  Import took 0.006262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 501.972124 seconds.
+  path: Assets/Swordsman/Animations/idle.fbx
+  artifactKey: Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/idle.fbx using Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6897e7e54b1f1b81d2c2da71915940f0') in 0.009861 seconds
+  Import took 0.013423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007478 seconds.
+  path: Assets/Swordsman/Animations/idle.fbx
+  artifactKey: Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/idle.fbx using Guid(fa3a0832ff0192341986218d460741aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6897e7e54b1f1b81d2c2da71915940f0') in 0.007877 seconds
+  Import took 0.010626 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 75.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 2.035600 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.801700 ms  DeleteObjects: 0.054700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.162342 seconds.
+  path: Assets/Swordsman/Animations/sword and shield walk.fbx
+  artifactKey: Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/sword and shield walk.fbx using Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760fb01e398c51c7eca1f8e6c424dee2') in 0.042107 seconds
+  Import took 0.045231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012973 seconds.
+  path: Assets/Swordsman/Animations/sword and shield walk.fbx
+  artifactKey: Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/sword and shield walk.fbx using Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760fb01e398c51c7eca1f8e6c424dee2') in 0.008043 seconds
+  Import took 0.011238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.391928 seconds.
+  path: Assets/Swordsman/Animations/run.fbx
+  artifactKey: Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/run.fbx using Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481da10d3c5268b543338430750f78d5') in 0.012494 seconds
+  Import took 0.015476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016642 seconds.
+  path: Assets/Swordsman/Animations/run.fbx
+  artifactKey: Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/run.fbx using Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481da10d3c5268b543338430750f78d5') in 0.009397 seconds
+  Import took 0.012367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.352813 seconds.
+  path: Assets/Swordsman/Animations/run.fbx
+  artifactKey: Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/run.fbx using Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41733d95f5955b48715407f32d4e6d9a') in 0.007397 seconds
+  Import took 0.010020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018433 seconds.
+  path: Assets/Swordsman/Animations/run.fbx
+  artifactKey: Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/run.fbx using Guid(0d161b4fc36cd1847a0ae1b18a7eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41733d95f5955b48715407f32d4e6d9a') in 0.009348 seconds
+  Import took 0.013244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.311399 seconds.
+  path: Assets/Swordsman/Animations/run (2).fbx
+  artifactKey: Guid(440e6d1037396354fbbb3ce402a24780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/run (2).fbx using Guid(440e6d1037396354fbbb3ce402a24780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6713e4f6c5a8ce634352c05c2cdba6') in 0.030235 seconds
+  Import took 0.037677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Swordsman/Animations/walk (2).fbx
+  artifactKey: Guid(ec6cb7cc6b4f1fb4fa3a191db010d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swordsman/Animations/walk (2).fbx using Guid(ec6cb7cc6b4f1fb4fa3a191db010d0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65023d05831b0dd2fbd2c62d33dd021c') in 0.016365 seconds
+  Import took 0.047230 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
