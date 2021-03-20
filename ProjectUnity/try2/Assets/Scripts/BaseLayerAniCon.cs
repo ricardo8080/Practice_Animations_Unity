@@ -13,7 +13,7 @@ public class AniFacts //Data user needs to decide for each animation
 
 public class BaseLayerAniCon : MonoBehaviour //Script that performs the heavylifting for playing our animations
 {
-    public static float aFrame = 1 / 30f; //How much time passes in a frame, if we assume a frame is 1/60th of a second
+    public static float aFrame = 1 / 30f; //How much time passes in a frame, if we assume a frame is 1/30th of a second
     public static float bFrame = 24 / 30f; //Frame rate adjusted from Blender
     public Animator aniConRef; 
     public int curentAnimation; 

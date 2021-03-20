@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseControl : MonoBehaviour
-{   /*
+{   
     public Vector2 turn;
     public float sensitivity = .5f;
     public Vector3 deltaMove;
@@ -11,6 +11,7 @@ public class MouseControl : MonoBehaviour
     public GameObject mover;
     private void Start()
     {
+        //Locks Mouse to Monitor, it dissapears
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -18,9 +19,14 @@ public class MouseControl : MonoBehaviour
     {
         turn.x += Input.GetAxis("Mouse X") * sensitivity;
         turn.y += Input.GetAxis("Mouse Y") * sensitivity;
-        mover.transform.localRotation = Quaternion.Euler(0, turn.x, 0);
-        transform.localRotation = Quaternion.Euler(-turn.y, 0, 0);
+        //Limits of screen movement
+        if (turn.x > 25) turn.x = 25;
+        else if (turn.x < -25) turn.x = -25;
+        if (turn.y > 15) turn.y = 15;
+        else if (turn.y < -20) turn.y = -20;
 
-        deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
-    }*/
+        mover.transform.localRotation = Quaternion.Euler(0, turn.x, 0); //Moves CameraHolder from left to right
+        transform.localRotation = Quaternion.Euler(-turn.y, 0, 0);      //Moves mainCamera from up to down
+         deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
+    }
 }

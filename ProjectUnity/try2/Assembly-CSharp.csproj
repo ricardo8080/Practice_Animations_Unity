@@ -59,8 +59,9 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\BaseLayerAniCon.cs" />
     <Compile Include="Assets\Scripts\TutorialExample.cs" />
-    <Compile Include="Assets\Scripts\CameraCon.cs" />
     <Compile Include="Assets\Scripts\MouseControl.cs" />
+    <Compile Include="Assets\Scripts\CameraCon.cs" />
+    <Compile Include="Assets\Scripts\AnimatorOverrider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
