@@ -5,11 +5,13 @@ using UnityEngine;
 public class CameraCon : MonoBehaviour
 {
     public Transform camTarget;
-    public float pLerp = .1f;
-    public float rLerp = .2f;
+    public float pLerp = .01f;
+    public float rLerp = .02f;
+    public Transform target;
 
     void Update()
     {
+        transform.LookAt(target);
         //Forces camera to follow the character
         //pLerp is the speed of movement for location
         //rLerp is the speed of movement for rotation 

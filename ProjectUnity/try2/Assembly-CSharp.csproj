@@ -57,11 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\BaseLayerAniCon.cs" />
-    <Compile Include="Assets\Scripts\TutorialExample.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnimationScript.cs" />
     <Compile Include="Assets\Scripts\MouseControl.cs" />
     <Compile Include="Assets\Scripts\CameraCon.cs" />
-    <Compile Include="Assets\Scripts\AnimatorOverrider.cs" />
+    <Compile Include="Assets\DungeonModules\Scripts\DoorAOpen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

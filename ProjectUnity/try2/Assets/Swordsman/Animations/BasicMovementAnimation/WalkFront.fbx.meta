@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: f268d7f8bcb13fc409907e63a9ca80cf
+guid: 422d2a285d8ab2a4aa848e5b885cb559
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: 09walkfront
+    second: walkfront
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: 09walkfront
+      name: walkfront
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
