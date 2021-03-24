@@ -8,9 +8,12 @@ public class PlayerAnimationScript : MonoBehaviour
 
     private float xAxis;
     private float zAxis;
-    public Vector3 deltaMove;
+    public GameObject camTarget;
+    public GameObject paladinTarget;
+    public Vector3 camPosition;
+    public Vector3 paladinPosition;
     private Rigidbody rbd;
-    private int groundMask;
+    public Vector3 deltaMove;
     private bool isGrounded = false;
     public string currentState;
     private bool isAttacking = false;
@@ -35,7 +38,6 @@ public class PlayerAnimationScript : MonoBehaviour
     {
         rbd = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
-        groundMask = 1 << LayerMask.NameToLayer("Ground");
     }
     // Update is called once per frame
     void Update()
@@ -108,7 +110,7 @@ public class PlayerAnimationScript : MonoBehaviour
             }
             actionDelay = animator.GetCurrentAnimatorStateInfo(0).length;
             Invoke("JumpComplete", actionDelay);
-            rbd.velocity =new Vector3(0, 3, 0);
+            rbd.velocity =new Vector3(0, 5, 0);
         }
 
         //-------------------------------------
@@ -119,13 +121,13 @@ public class PlayerAnimationScript : MonoBehaviour
             isRollPressed = false;
             isRolling = true;
             ChangeAnimationState(ActListConst.Roll);
-            if (isMoving)
+            if (zAxis > 0 && isRunPressed)
+            {
+                deltaMove = new Vector3(xAxis, 0, zAxis) * Time.deltaTime*3;
+            }
+            else if (zAxis > 0)
             {
                 deltaMove = new Vector3(xAxis, 0, zAxis) * Time.deltaTime*2;
-            }
-            else
-            {
-                deltaMove = new Vector3(xAxis, 0, zAxis) * Time.deltaTime;
             }
             transform.parent.Translate(deltaMove);
             actionDelay = animator.GetCurrentAnimatorStateInfo(0).length;
@@ -161,7 +163,7 @@ public class PlayerAnimationScript : MonoBehaviour
     private void JumpComplete()
     {
         isJumping = false;
-        rbd.velocity = new Vector3(0,0, 0);
+        rbd.velocity = new Vector3(0,0,0);
     }
     private void RollComplete()
     {
@@ -193,7 +195,31 @@ public class PlayerAnimationScript : MonoBehaviour
         {
             isGrounded = false;
         }
-        print("isgrounded:" + isGrounded);
+        if (collision.collider.tag != "floor")
+        {
+            camPosition = camTarget.transform.position;
+            paladinPosition = paladinTarget.transform.position;
+            
+        }
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.collider.tag == "floor")
+        {
+            isGrounded = false;
+        }
+        if (collision.collider.tag != "floor")
+        {
+            Vector3 distance = new Vector3(paladinTarget.transform.position.x - paladinPosition.x, paladinTarget.transform.position.y - paladinPosition.y, paladinTarget.transform.position.z - paladinPosition.z);
+
+
+            print("cam: " + camPosition + " current: " + camTarget.transform.position);
+            print("Player: " + paladinPosition + "Player: " + paladinTarget.transform.position + "  distance   " + distance);
+            
+            
+            camTarget.transform.position = new Vector3(camPosition.x + distance.x, camPosition.y + distance.y, camPosition.z + distance.z);
+
+        }
     }
 }
 

@@ -16,10 +16,10 @@ public class PlayerMovement : MonoBehaviour
 
         //Define rotation when moving Left or Right
         deltaMove = new Vector3(0, Input.GetAxisRaw("Horizontal"), 0) * gradesToRotate * Time.deltaTime;
-        transform.Rotate(deltaMove);
+        //transform.Rotate(deltaMove);
         if (Input.GetKey(KeyCode.E))
         {
-            deltaMove = new Vector3(0,1, 0) * gradesToRotate * Time.deltaTime;
+            deltaMove = new Vector3(0, 1, 0) * gradesToRotate * Time.deltaTime;
             transform.Rotate(deltaMove);
         }
         if (Input.GetKey(KeyCode.Q))
@@ -27,6 +27,5 @@ public class PlayerMovement : MonoBehaviour
             deltaMove = new Vector3(0, -1, 0) * gradesToRotate * Time.deltaTime;
             transform.Rotate(deltaMove);
         }
-
     }
 }
