@@ -8,7 +8,7 @@ public class PlayerAnimationScript : MonoBehaviour
 
     private float xAxis;
     private float zAxis;
-    public GameObject camTarget;
+    //public GameObject camTarget;
     public GameObject paladinTarget;
     public Vector3 camPosition;
     public Vector3 paladinPosition;
@@ -30,7 +30,7 @@ public class PlayerAnimationScript : MonoBehaviour
     [SerializeField]
     private float actionDelay = 0.7f;
 
-
+   
 
 
     // Start is called before the first frame update
@@ -197,9 +197,11 @@ public class PlayerAnimationScript : MonoBehaviour
         }
         if (collision.collider.tag != "floor")
         {
-            camPosition = camTarget.transform.position;
-            paladinPosition = paladinTarget.transform.position;
-            
+            print("choca con pared o enemigo");
+            CameraCon.setCollision(true);
+            //camPosition = camTarget.transform.position;
+            //paladinPosition = paladinTarget.transform.position;
+
         }
     }
     private void OnCollisionExit(Collision collision)
@@ -210,15 +212,10 @@ public class PlayerAnimationScript : MonoBehaviour
         }
         if (collision.collider.tag != "floor")
         {
+            print("deja de chocar con pared o enemigo");
             Vector3 distance = new Vector3(paladinTarget.transform.position.x - paladinPosition.x, paladinTarget.transform.position.y - paladinPosition.y, paladinTarget.transform.position.z - paladinPosition.z);
 
-
-            print("cam: " + camPosition + " current: " + camTarget.transform.position);
-            print("Player: " + paladinPosition + "Player: " + paladinTarget.transform.position + "  distance   " + distance);
-            
-            
-            camTarget.transform.position = new Vector3(camPosition.x + distance.x, camPosition.y + distance.y, camPosition.z + distance.z);
-
+            CameraCon.setCollision(false);
         }
     }
 }
