@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
         //Defines movement in x,y location for character, it moves the character
         deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
         transform.Translate(deltaMove);
-
+        
         //Define rotation when pressing E or Q
         if (Input.GetKey(KeyCode.E))
         {

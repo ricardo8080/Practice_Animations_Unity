@@ -18,8 +18,6 @@ public class PlayerAnimationScript : MonoBehaviour
     public string currentState;
     private bool isAttacking = false;
     private bool isAttackPressed = false;
-    private bool isBlockPressed = false;
-    private bool isCrouch = false;
     private bool isJumpPressed = false;
     private bool isJumping = false;
     private bool isRollPressed = false;
@@ -54,15 +52,9 @@ public class PlayerAnimationScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded) isJumpPressed = true;
         // X to roll
         if (Input.GetKeyDown(KeyCode.X)) isRollPressed = true;
-        //right click to be on block mode
-        if (Input.GetMouseButton(1)) isBlockPressed = true;
-        else isBlockPressed = false;
         //Shift to change to run
         if (Input.GetKey(KeyCode.LeftShift)) isRunPressed = true;
         else isRunPressed = false;
-        //Ctrl to crouch
-        if (Input.GetKey(KeyCode.LeftControl)) isCrouch = true;
-        else isCrouch = false;
     }
 
     private void FixedUpdate()
@@ -178,7 +170,6 @@ public class PlayerAnimationScript : MonoBehaviour
         animator.StopPlayback();
         //Play animation
         animator.PlayInFixedTime(newState);
-        //print("animation played" + xAxis + " " + zAxis + " " + newState);
 
         //reassign the current state
         currentState = newState;
@@ -199,9 +190,6 @@ public class PlayerAnimationScript : MonoBehaviour
         {
             print("choca con pared o enemigo");
             CameraCon.setCollision(true);
-            //camPosition = camTarget.transform.position;
-            //paladinPosition = paladinTarget.transform.position;
-
         }
     }
     private void OnCollisionExit(Collision collision)
@@ -212,7 +200,6 @@ public class PlayerAnimationScript : MonoBehaviour
         }
         if (collision.collider.tag != "floor")
         {
-            print("deja de chocar con pared o enemigo");
             Vector3 distance = new Vector3(paladinTarget.transform.position.x - paladinPosition.x, paladinTarget.transform.position.y - paladinPosition.y, paladinTarget.transform.position.z - paladinPosition.z);
 
             CameraCon.setCollision(false);
