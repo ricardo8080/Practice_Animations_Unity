@@ -6,20 +6,34 @@ public class PlayerMovement : MonoBehaviour
 {
     public float gradesToRotate;
     public float speed;
-    public float speedrotation ;
+    public float speedrotation;
+    public bool isMusicPlaying = false;
     public Vector3 deltaMove;
     public Transform camTarget;
     public Transform paladin;
     public GameObject player;
+    public AudioSource mapSound;
+    public AudioSource walkSound;
     private void Start()
     {
+        mapSound.volume = PlayerPrefs.GetFloat("volumen");
+        walkSound.volume = PlayerPrefs.GetFloat("volumen")/2;
+        mapSound.Play();
     }
     void Update()
     {
         //Defines movement in x,y location for character, it moves the character
         deltaMove = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")) * speed * Time.deltaTime;
         transform.Translate(deltaMove);
-        
+        if ((Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0) && !isMusicPlaying)
+        {
+            walkSound.Play();
+            isMusicPlaying = true;
+        }
+        else if (isMusicPlaying && (Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Vertical") == 0)) {
+            walkSound.Stop();
+            isMusicPlaying = false;
+        }
         //Define rotation when pressing E or Q
         if (Input.GetKey(KeyCode.E))
         {
@@ -33,8 +47,11 @@ public class PlayerMovement : MonoBehaviour
             deltaMove = new Vector3(0, -1, 0) * gradesToRotate * Time.deltaTime * speedrotation;
             transform.Rotate(deltaMove);
         }
+        if (Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            Application.Quit();
+        }
     }
-
     private void OrbitAround(int xAxis)
     {
         if (xAxis > 0)

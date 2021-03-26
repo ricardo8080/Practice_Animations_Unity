@@ -58,12 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\DungeonModules\Scripts\DoorAOpen.cs" />
     <Compile Include="Assets\Dynamic Flickering Light\FlickeringLight.cs" />
+    <Compile Include="Assets\Scripts\SkeletonAnimationController.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimationScript.cs" />
     <Compile Include="Assets\fantasySpider\FSP_ContinuousRotation.cs" />
     <Compile Include="Assets\Scripts\MouseControl.cs" />
     <Compile Include="Assets\Scripts\CameraCon.cs" />
-    <Compile Include="Assets\Scripts\SkeletonAnimationController.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Dynamic Flickering Light\readme.txt" />

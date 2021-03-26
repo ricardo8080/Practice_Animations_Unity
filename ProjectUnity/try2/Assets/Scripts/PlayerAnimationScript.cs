@@ -188,7 +188,6 @@ public class PlayerAnimationScript : MonoBehaviour
         }
         if (collision.collider.tag != "floor")
         {
-            print("choca con pared o enemigo");
             CameraCon.setCollision(true);
         }
     }

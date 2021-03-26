@@ -57,9 +57,7 @@ public class SkeletonAnimationController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        print("It's the ENEMY!!!!! " + other.tag);
         if (other.gameObject.tag == "Player")
-            print("It's thCOMONOANSODNASIODNOIAS");
         {
         }
     }
